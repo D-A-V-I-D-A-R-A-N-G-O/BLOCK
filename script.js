@@ -12,7 +12,7 @@ async function obtenerPersonajes() {
             <div id="contenedor">
                 <h2 id="alias">${ave.attributes.alias}</h2>
                 <h2 id="nombre">${ave.attributes.name}</h2>
-                <h3>ROL: ${ave.attributes.role}</h3>
+                <h3 id="rol">ROL: ${ave.attributes.role}</h3>
             </div>`;
             avesContainer.appendChild(aveElement);
         });

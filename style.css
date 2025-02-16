@@ -107,5 +107,12 @@ h4{
         flex-direction: column;
     }
 }
+#alias{
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+    
+}
 
 
