@@ -8,7 +8,8 @@ async function obtenerPersonajes() {
             const aveElement = document.createElement('div');
             aveElement.classList.add('ave');
             aveElement.innerHTML = 
-            `<div class="personaje">
+            `
+            <div id="contenedor">
                 <h2 id="alias">${ave.attributes.alias}</h2>
                 <h2 id="nombre">${ave.attributes.name}</h2>
                 <h3>ROL: ${ave.attributes.role}</h3>
@@ -24,12 +25,12 @@ window.onload = obtenerPersonajes();
 function personajesBoton() {
     const personajes = document.getElementById('Personajes');
     const inicio = document.getElementById('Inicio');
-    personajes.style.display = 'block';
+    personajes.style.display = 'flex';
     inicio.style.display = 'none';
 }
 function inicioBoton() {
     const personajes = document.getElementById('Personajes');
     const inicio = document.getElementById('Inicio');
     personajes.style.display = 'none';
-    inicio.style.display = 'block';
+    inicio.style.display = 'flex';
 }
