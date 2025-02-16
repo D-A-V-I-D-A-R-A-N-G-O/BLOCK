@@ -8,6 +8,8 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 h1 {
     font-size: 2.5em;
@@ -30,6 +32,8 @@ img{
     border-bottom: #ffffff;
     border-width: 500%;
     border: 5px;
+    max-width: 100%;
+    min-width: none;
 }
 .texto{
     background-color:rgb(255, 255, 255);
@@ -50,21 +54,29 @@ h4{
 
 }
 .boton{
-    font-size: 100%;
-    padding: 5px;
-    font: #ffffff;
     border-width: 5px;
+    font-size: 125%;
     font-family: fantasy;
-    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin:0.5%;
+    
+    border-color: #000;
+
 }
 .menu{
     padding: 5px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     border: 3px solid rgb(255, 255, 255);
+   
 }
-Personajes{
-   display: flex;
-    align-items: center;
-    text-align: center;
+.personaje {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f4f4f4;
 }
+
