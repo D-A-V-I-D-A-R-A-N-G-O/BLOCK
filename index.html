@@ -7,13 +7,27 @@
    <link rel="stylesheet" href="style.css">
 
 </head>
+<div id="bats">
+<!-- Murciélagos volando -->
+
 <body>
+
     <div class="container" id="todo">
     <div class="menu">
-        <button class="boton" onclick="inicioBoton()">Inicio</button>
-        <button class="boton" onclick="personajesBoton()">Personajes</button>
-        <button class="boton">Contactanos</button>
+        <div>  
+              <img  id="logo"  onclick="inicioBoton()" src="https://13thdimension.com/wp-content/uploads/2018/05/Batman_Arkham_City_Logo.png" alt="INICIO">
+        </div>
+        <div id="person"> 
+            <img  class="botones" src="https://www.pngarts.com/files/3/Bat-Silhouette-PNG-Background-Image.png" alt="Personajes">
+            <button class="boton" onclick="personajesBoton()">Personajes</button>
+        </div>
+        <div id="contacto">
+            <img class="botones"  src="https://www.pngarts.com/files/3/Bat-Silhouette-PNG-Background-Image.png" alt="Contactanos">
+            <button class="boton">Contactanos</button>
+        </div>
     </div>
+
+
     <div id="Inicio">
     <header>
         <h1>Batman Arkham City</h1>
@@ -21,7 +35,6 @@
     <div class="imagen">
         <img src="batman.jpg" alt="Batman" id="pepe">
     </div>
- 
         <div class="texto">
         <p>
             "Batman: Arkham City" es la secuela del exitoso "Batman: Arkham Asylum". En esta entrega, Quincy Sharp, el ex director del Asilo Arkham, se ha convertido en el alcalde de Gotham City y ha convertido una parte de la ciudad en una prisión al aire libre llamada Arkham City. Batman debe infiltrarse en esta peligrosa prisión para detener los siniestros planes del Dr. Hugo Strange, quien conoce la verdadera identidad de Batman.
@@ -32,10 +45,10 @@
         <a href="https://rocksteadyltd.com/">Desarrolladora: Rocksteady</a>
         </div>
     </div>
-    <div id="Personajes" style="display: none;">
-    </div>
+    <div id="Personajes" style="display: none;"></div>
     </div>
 </body>
+<script src="./bats.js"></script>
 <script src="./script.js"></script>
 </html>
 
