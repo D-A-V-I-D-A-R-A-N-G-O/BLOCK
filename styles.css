@@ -69,3 +69,27 @@ body{
     padding: 5px;
     margin: 5px;
 }
+
+
+.ave {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #03084e;
+    border: 3px solid yellow;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 15px;
+} 
+#alias{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #09012b;
+    font-family: fantasy;
+}
