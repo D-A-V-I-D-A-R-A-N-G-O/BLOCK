@@ -14,6 +14,17 @@ body{
     margin: 10px;
     background-color: #03084e;
 }
+@media (max-width: 480px) {
+    .superior{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #bat{
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+}
 #Inicio{
     display: flex;
     text-align: center;
@@ -28,6 +39,7 @@ body{
     min-width: none;
     min-height: none;
 }
+
 .boton{
     border: 3px solid yellow;
     border-radius: 10px;
