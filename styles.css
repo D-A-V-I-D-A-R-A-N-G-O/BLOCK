@@ -38,8 +38,8 @@ body{
     font-family: fantasy;
 }
 #bat{
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 10%;
+    max-height: 10%;
     min-width: none;
     min-height: none;
 }
@@ -112,4 +112,7 @@ body{
 #gif{
     max-width: 50%;
     min-width: none;
+    border: 3px solid yellow;
+    border-radius: 500%;
+    margin: 10px;
 }
