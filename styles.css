@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: yellow;
+    border: 3px solid yellow;
+    padding: 5px;
+    background-color: #09012b;
+}
+.superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid yellow;
+    padding: 5px;
+    margin: 10px;
+    background-color: #03084e;
+}
+#Inicio{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: fantasy;
+}
+#bat{
+    max-width: 20%;
+    max-height: 20%;
+    min-width: none;
+    min-height: none;
+}
+.boton{
+    border: 3px solid yellow;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;    
+    font-family: fantasy;
+    color: yellow;
+    font-size: 115%;
+    background-color: #09012b;
+}
+#batman{
+    max-width: 50%;
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+.texto {
+    border: 5px solid yellow;
+    margin: 10px;
+    font-family: fantasy;
+    background-color: #03084e;
+}
+#resumen{
+    padding: 5px;
+    margin: 5px;
+}
