@@ -38,22 +38,42 @@ body{
     font-family: fantasy;
 }
 #bat{
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 100px;
+    max-height: 100px;
     min-width: none;
     min-height: none;
 }
-
-.boton{
-    border: 3px solid yellow;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;    
-    font-family: fantasy;
-    color: yellow;
-    font-size: 115%;
-    background-color: #09012b;
+#bat:hover{
+    
 }
+
+
+
+/* From Uiverse.io by sekaiking */ 
+button {
+    background-color: #09012b;
+    color: yellow;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    padding: 5px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid yellow;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
 #batman{
     max-width: 50%;
     border: 5px solid yellow;
@@ -76,9 +96,9 @@ body{
     padding: 20px;
     align-items: center;
 }
-.Personajes{
+#Personajes{
     display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
 .contenedor{
     display: flex;
@@ -115,4 +135,27 @@ body{
     border: 3px solid yellow;
     border-radius: 500%;
     margin: 10px;
+}
+
+#imgo{
+    padding: 5px;
+    border: 2px  solid yellow;
+    border-radius: 5px;
+    max-height: 150px;
+    max-width: 150px;
+    min-width: none;
+    min-height: none;
+    text-align: center;
+}
+#tituloper{
+    text-align: center;
+}
+#baticorrida{
+    text-align: center;
+    border-radius: 5px;
+    max-height: 150px;
+    max-width: 150px;
+    min-width: none;
+    min-height: none;
+   
 }
