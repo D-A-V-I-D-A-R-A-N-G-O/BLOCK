@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    color: yellow;
+    border: 3px solid yellow;
+    padding: 5px;
+    background-color: #09012b;
+}
+.superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid yellow;
+    padding: 5px;
+    margin: 10px;
+    background-color: #03084e;
+}
+@media (max-width: 480px) {
+    .superior{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #bat{
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 30%;
+    min-height: 30%;
+    }
+}
+#Inicio{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: fantasy;
+}
+#bat{
+    max-width: 10%;
+    max-height: 10%;
+    min-width: none;
+    min-height: none;
+}
+
+.boton{
+    border: 3px solid yellow;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;    
+    font-family: fantasy;
+    color: yellow;
+    font-size: 115%;
+    background-color: #09012b;
+}
+#batman{
+    max-width: 50%;
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+.texto {
+    border: 5px solid yellow;
+    margin: 10px;
+    font-family: fantasy;
+    background-color: #03084e;
+}
+#resumen{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.ave {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+}
+#Personajes{
+    display: flex;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #03084e;
+    border: 3px solid yellow;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 15px;
+} 
+#alias{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #09012b;
+    font-family: fantasy;
+}
+#Contacto{
+    font-family: fantasy;
+    font-size: 125%;
+    flex-direction: column;
+    align-items: center;
+}
+#Contacto a{
+    padding: 10px;
+}
+#nombres{
+    margin: 10px;
+}
+#gif{
+    max-width: 50%;
+    min-width: none;
+    border: 3px solid yellow;
+    border-radius: 500%;
+    margin: 10px;
+}
+
+#imgo{
+    padding: 5px;
+    border: 2px  solid yellow;
+    border-radius: 5px;
+    max-height: 150px;
+    max-width: 150px;
+    min-width: none;
+    min-height: none;
+}
+#tituloper{
+    text-align: center;
+}
+#baticorrida{
+    border-radius: 5px;
+    max-height: 150px;
+    max-width: 150px;
+    min-width: none;
+    min-height: none;
+   
+}
