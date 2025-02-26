@@ -1,6 +1,6 @@
 async function obtenerPersonajes() {
     try {
-        const response = await fetch('http://181.133.27.242:8080/API/aves');
+        const response = await fetch('https://batapi-77nt.onrender.com/API/aves');
         const datas = await response.json();
         const personajes = datas;
         const avesContainer = document.getElementById('pelsonajes');
