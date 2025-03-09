@@ -44,6 +44,10 @@ body{
     min-height: none;
 }
 #bat:hover{
+    max-width: 125px;
+    max-height: 125px;
+    min-width: none;
+    min-height: none;
     
 }
 
@@ -75,9 +79,15 @@ button {
     box-shadow: 0 0 0 0 black;
   };
 #batman{
-    max-width: 50%;
-    border: 5px solid yellow;
+    max-width: 125px;
+    border: 10px solid yellow;
     border-radius: 10px;
+}
+
+.imagen{
+
+    display: flex;
+    justify-content: center;
 }
 .texto {
     border: 5px solid yellow;
