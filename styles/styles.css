@@ -79,8 +79,8 @@ button {
     box-shadow: 0 0 0 0 black;
   };
 #batman{
-    max-width: 125px;
-    border: 10px solid yellow;
+    min-width: none;
+    min-height: none;
     border-radius: 10px;
 }
 

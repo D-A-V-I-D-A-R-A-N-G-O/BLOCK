@@ -5,6 +5,7 @@ async function obtenerPersonajes() {
         const personajes = datas;
         const avesContainer = document.getElementById('pelsonajes');
         console.log(personajes);
+        console.log(personajes.constructor.name)
         personajes.forEach(personaje => {
             const personajeElement = document.createElement('div');
             personajeElement.classList.add('ave');
